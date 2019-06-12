@@ -32,15 +32,8 @@ class ViewController: UIViewController {
 
 //// SINGLE LINE (BEST) WAY TO CALCULATE DIFFERENCE
         let difference = abs(targetValue - currentValue)
-        var points: Int
-        if difference == 0 {
-        points = 200
-        } else if difference == 1 {
-        points = 150 - difference
-        } else {
-        points = 100 - difference
-        }
-                
+        var points = 100 - difference
+        
                 
         
         
@@ -61,13 +54,17 @@ class ViewController: UIViewController {
 //            difference = 0
 //        }
         
-        score += points
+       
         
         let title: String
         if difference == 0 {
             title = "Perfect!"
+            points += 100
         } else if difference < 5 {
             title = "You almost had it!"
+            if difference == 1 {
+                points += 50
+            }
         } else if difference < 10 {
             title = "Thats pretty good!"
         } else {
@@ -83,6 +80,8 @@ class ViewController: UIViewController {
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
+        
+        score += points
         
         startNewRound()
         
