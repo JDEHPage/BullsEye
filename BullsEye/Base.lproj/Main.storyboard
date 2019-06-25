@@ -232,6 +232,7 @@
                             <constraint firstItem="dTf-KH-s9t" firstAttribute="centerX" secondItem="0V1-Ii-nZc" secondAttribute="centerX" id="3pX-5l-Xzw"/>
                             <constraint firstItem="GH7-WI-BKM" firstAttribute="top" secondItem="VIv-ZN-DJm" secondAttribute="top" id="5OB-9n-lYP"/>
                             <constraint firstItem="VIv-ZN-DJm" firstAttribute="bottom" secondItem="GH7-WI-BKM" secondAttribute="bottom" id="K2O-7n-bgq"/>
+                            <constraint firstItem="dTf-KH-s9t" firstAttribute="centerX" secondItem="0V1-Ii-nZc" secondAttribute="centerX" id="az8-lk-rAc"/>
                             <constraint firstItem="VIv-ZN-DJm" firstAttribute="trailing" secondItem="GH7-WI-BKM" secondAttribute="trailing" id="fn1-aY-VWh"/>
                             <constraint firstItem="dTf-KH-s9t" firstAttribute="centerY" secondItem="0V1-Ii-nZc" secondAttribute="centerY" id="hLL-si-z2O"/>
                             <constraint firstItem="GH7-WI-BKM" firstAttribute="leading" secondItem="VIv-ZN-DJm" secondAttribute="leading" id="i66-g8-yol"/>
@@ -306,6 +307,7 @@
                             <constraint firstItem="jCr-8e-ytq" firstAttribute="centerY" secondItem="6lh-uA-y4b" secondAttribute="centerY" id="5hG-TG-03w"/>
                             <constraint firstItem="ir8-dU-o2e" firstAttribute="top" secondItem="p2X-zU-xiT" secondAttribute="top" id="ARw-Tp-XuG"/>
                             <constraint firstItem="p2X-zU-xiT" firstAttribute="bottom" secondItem="ir8-dU-o2e" secondAttribute="bottom" id="Lrl-8P-pNY"/>
+                            <constraint firstItem="jCr-8e-ytq" firstAttribute="centerX" secondItem="6lh-uA-y4b" secondAttribute="centerX" id="wDi-dQ-HpZ"/>
                             <constraint firstItem="ir8-dU-o2e" firstAttribute="leading" secondItem="p2X-zU-xiT" secondAttribute="leading" id="x6X-k0-0tG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="p2X-zU-xiT"/>
